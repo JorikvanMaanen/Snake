@@ -176,7 +176,7 @@ function goFurther() {
         if (score > 90) {snelheid = 150;}
         cooldown--;
         if (cooldown > 0) {
-            countdownText = "Pause countdown on cooldown!!!";
+            countdownText = "Pause is on cooldown!!!";
             console.log(countdownText);
             document.getElementById("countdown").textContent=countdownText;
         } else {
